@@ -1,0 +1,16 @@
+FROM continuumio/miniconda3
+
+
+COPY . /home
+
+
+RUN cd /home \
+  && ENV_NAME=$(cat environment.yml | grep name | cut -c7-) \
+  && conda env create -f environment.yml \
+  && echo "source activate "$ENV_NAME > ~/.bashrc \
+  && apt install nano
+
+ENV PATH /opt/conda/envs/env/bin:$PATH
+
+
+CMD ["/bin/bash"]

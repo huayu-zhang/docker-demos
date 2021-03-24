@@ -1,0 +1,34 @@
+name: multi-container-demo
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - ca-certificates=2020.12.5=ha878542_0
+  - certifi=2020.12.5=py37h89c1867_1
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libprotobuf=3.6.0=hdbcaa40_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - mysql-connector-c=6.1.11=h597af5e_1
+  - mysql-connector-python=8.0.18=py37h9c95fcb_1
+  - ncurses=6.2=he6710b0_1
+  - neo4j-python-driver=4.2.1=pyhd8ed1ab_1
+  - openssl=1.1.1j=h27cfd23_0
+  - pip=21.0.1=py37h06a4308_0
+  - protobuf=3.6.0=py37hf484d3e_0
+  - python=3.7.10=hdb3f193_0
+  - python_abi=3.7=1_cp37m
+  - pytz=2021.1=pyhd8ed1ab_0
+  - readline=8.1=h27cfd23_0
+  - setuptools=52.0.0=py37h06a4308_0
+  - six=1.15.0=py_0
+  - sqlite=3.35.2=hdfb4753_0
+  - tk=8.6.10=hbc83047_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/huayu/anaconda3/envs/multi-container-demo
+
